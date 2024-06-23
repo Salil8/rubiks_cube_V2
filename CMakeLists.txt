@@ -3,4 +3,10 @@ project(rubiks_cube_V2)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(rubiks_cube_V2 main.cpp)
+add_executable(rubiks_cube_V2 main.cpp
+        Models/RubiksCube.cpp
+        Models/RubiksCube.h
+        Models/RubiksCube.h
+        Models/RubiksCube3dArray.cpp
+        Models/RubiksCube1dArray.cpp
+        Models/RubiksCubeBitboard.cpp)
